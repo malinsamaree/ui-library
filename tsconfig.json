@@ -101,8 +101,8 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "exclude": [
-    "aathal",
-    "src/**/*.aathal.tsx"
+    "aetal",
+    "src/**/*.aetal.tsx"
   ],
   "include": [
     "src"
