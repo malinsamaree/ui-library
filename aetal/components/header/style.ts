@@ -10,10 +10,16 @@ export const HeaderWrapper = styled.div`
 
 export const Title = styled.h1`
     margin-left: 30px;
-    font-family: 'verdana';
-    letter-spacing: 5px;
     color: #435460;
     font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+    height: 35px;
+    display: inline-block;
+`;
+
+export const TitleSpan = styled.span`
+    color: #679ac9;
 `;
 
 export const Description = styled.h3`

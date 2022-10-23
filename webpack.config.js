@@ -3,9 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: "development",
-    entry: path.resolve(__dirname, 'aathal', 'index.tsx'),
+    entry: path.resolve(__dirname, 'aetal', 'index.tsx'),
     output: {
-        path: path.join(__dirname, 'aathal', 'dist'),
+        path: path.join(__dirname, 'aetal', 'dist'),
         filename: "index.js"
     },
     devServer: {
@@ -23,8 +23,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, 'aathal', 'index.html'),
-            favicon: path.resolve('./aathal/favicon.ico')
+            template: path.resolve(__dirname, 'aetal', 'index.html'),
+            favicon: path.resolve('./aetal/favicon.ico')
         })
     ],
     resolve: {

@@ -1,10 +1,10 @@
 import * as React from 'react';
-import {HeaderWrapper, Title, Description, DescriptionSpan} from "./style";
+import {HeaderWrapper, Title, Description, DescriptionSpan, TitleSpan} from "./style";
 
 const Header = () => {
     return (
         <HeaderWrapper>
-            <Title>aatal</Title>
+            <Title>(<TitleSpan>ä</TitleSpan>|e)t al.</Title>
             <Description>
                 very simple library to
                 <DescriptionSpan> create </DescriptionSpan>,
