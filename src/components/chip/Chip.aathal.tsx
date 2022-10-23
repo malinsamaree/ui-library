@@ -1,10 +1,10 @@
-import React from 'react';
+import * as React from 'react';
+import {Chip} from "./Chip";
+import {ChipType} from "./types";
 
 const ChipAathal = () => {
     return (
-        <div>
-            Chip Aathal component
-        </div>
+        <Chip type={ChipType.CLOSE} active={true}>sample chip</Chip>
     );
 };
 
