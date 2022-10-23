@@ -1,17 +1,19 @@
-import React from 'react';
-import {Type} from "./types";
+import React, {ReactNode} from 'react';
+import {ChipType} from "./types";
+import {ChipWrapper} from "./style";
 
 interface Props {
-    type?: Type;
+    children: ReactNode;
+    type?: ChipType;
 }
 
 export const Chip = ({
-    type=Type.DEFAULT
+    children,
+    type=ChipType.DEFAULT
 }: Props) => {
     return (
-        <div>
-            CHIP -
-            {type}
-        </div>
+        <ChipWrapper>
+            {children}
+        </ChipWrapper>
     );
 };

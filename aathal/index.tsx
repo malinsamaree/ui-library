@@ -1,5 +1,12 @@
-import React from "react";
+import * as React from "react";
 import {createRoot} from "react-dom/client";
+import {Chip, ChipType} from "../src";
+import App from "./components/app/App";
+import {BrowserRouter} from "react-router-dom";
 
 const root = createRoot(document.getElementById('root') as HTMLDivElement)
-root.render(<h1>asdasd</h1>)
+root.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+)
