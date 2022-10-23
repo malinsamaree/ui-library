@@ -1,6 +1,8 @@
-aetal
-src
-.babel.config.json
-.rollup.config.mjs
-.tsconfig.json
-.webpack.config.js
+./aetal
+./src
+./.babel.config.json
+./.rollup.config.mjs
+./.tsconfig.json
+./.webpack.config.js
+./.gitignore
+./.npmignore
