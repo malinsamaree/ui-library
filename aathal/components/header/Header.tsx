@@ -1,12 +1,17 @@
 import * as React from 'react';
-import {HeaderWrapper, Title, Description} from "./style";
+import {HeaderWrapper, Title, Description, DescriptionSpan} from "./style";
 
 const Header = () => {
     return (
         <HeaderWrapper>
-            <Title>AATHAL</Title>
+            <Title>aatal</Title>
             <Description>
-                A react-typescript component library creator
+                very simple library to
+                <DescriptionSpan> create </DescriptionSpan>,
+                <DescriptionSpan> bundle </DescriptionSpan>
+                and
+                <DescriptionSpan> export </DescriptionSpan>
+                react-typescript UIs
             </Description>
         </HeaderWrapper>
     );

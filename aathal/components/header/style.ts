@@ -10,14 +10,17 @@ export const HeaderWrapper = styled.div`
 
 export const Title = styled.h1`
     margin-left: 30px;
-    font-family: arial;
+    font-family: 'verdana';
     letter-spacing: 5px;
-    color: #CB4335;
+    color: #435460;
     font-weight: bold;
 `;
 
 export const Description = styled.h3`
     margin-left: 30px;
-    font-family: arial;
-    color: #A04000;
+    color: #679ac9;
+`;
+
+export const DescriptionSpan = styled.span`
+        color: #435460;
 `;

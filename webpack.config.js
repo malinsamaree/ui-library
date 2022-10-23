@@ -23,7 +23,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, 'aathal', 'index.html')
+            template: path.resolve(__dirname, 'aathal', 'index.html'),
+            favicon: path.resolve('./aathal/favicon.ico')
         })
     ],
     resolve: {

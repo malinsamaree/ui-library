@@ -1,15 +1,20 @@
 import * as React from 'react';
-import {SideNavWrapper} from "./style";
-import {Link} from "react-router-dom";
+import {SideNavWrapper, UnorderedList, H4, List, RouterLink} from "./style";
 
 const SideNav = () => {
     return (
         <SideNavWrapper>
             <nav>
-                <ul>
-                    <li><Link to="/chip">chip</Link></li>
-                    <li><Link to="/spinner">spinner</Link></li>
-                </ul>
+                <H4>Atoms</H4>
+                    <UnorderedList>
+                        <List><RouterLink to="/chip">chip</RouterLink></List>
+                        <List><RouterLink to="/spinner">spinner</RouterLink></List>
+                    </UnorderedList>
+                <H4>Molecules</H4>
+                    <UnorderedList>
+                        <List><RouterLink to="/chip">chip</RouterLink></List>
+                        <List><RouterLink to="/spinner">spinner</RouterLink></List>
+                    </UnorderedList>
             </nav>
         </SideNavWrapper>
     );
