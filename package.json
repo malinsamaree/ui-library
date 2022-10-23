@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/cjs/src/index.js",
   "module": "dist/esm/src/index.js",
+  "files": ["/dist"],
   "scripts": {
     "build-remove": "rimraf dist",
     "build": "npm run build-remove && rollup -c && npx tsc",
@@ -40,6 +41,7 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
   }
 }
