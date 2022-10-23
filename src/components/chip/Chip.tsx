@@ -5,14 +5,18 @@ import {ChipWrapper} from "./style";
 interface Props {
     children: ReactNode;
     type?: ChipType;
+    error?: boolean;
+    active?: boolean;
 }
 
 export const Chip = ({
     children,
-    type=ChipType.DEFAULT
+    type=ChipType.DEFAULT,
+    error,
+    active
 }: Props) => {
     return (
-        <ChipWrapper>
+        <ChipWrapper error={error} active={active}>
             {children}
         </ChipWrapper>
     );
