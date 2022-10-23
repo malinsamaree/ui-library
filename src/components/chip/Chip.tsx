@@ -1,9 +1,17 @@
 import React from 'react';
+import {Type} from "./types";
 
-export const Chip = () => {
+interface Props {
+    type?: Type;
+}
+
+export const Chip = ({
+    type=Type.DEFAULT
+}: Props) => {
     return (
         <div>
-            CHIP
+            CHIP -
+            {type}
         </div>
     );
 };
