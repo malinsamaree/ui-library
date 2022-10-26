@@ -1,5 +1,5 @@
 'use strict';
 
-var reactIs = {exports: {}};
+var propTypes = {exports: {}};
 
-exports.reactIs = reactIs;
+exports.propTypes = propTypes;
