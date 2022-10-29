@@ -1,7 +1,8 @@
 {
-  "name": "ui-library",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@malinsamare/create-ui-library",
+  "version": "1.0.1",
+  "description": "aetal - a react library to create and manage components... ",
+  "bin": "./bin/cli.js",
   "main": "dist/cjs/src/index.js",
   "module": "dist/esm/src/index.js",
   "files": [
