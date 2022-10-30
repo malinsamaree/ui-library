@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import { ChipType } from "./types";
 interface Props {
-    children: ReactNode;
+    children?: ReactNode;
     chipType?: ChipType;
     error?: boolean;
     active?: boolean;

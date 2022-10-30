@@ -16,7 +16,7 @@ var Chip = function Chip(_ref) {
     error: error,
     active: active,
     chipType: chipType
-  }, children, testProp && /*#__PURE__*/index.createElement(Test.Test, {
+  }, children && children, testProp && /*#__PURE__*/index.createElement(Test.Test, {
     testProp: testProp
   }, "malin"));
 };

@@ -14,7 +14,7 @@ var Chip = function Chip(_ref) {
     error: error,
     active: active,
     chipType: chipType
-  }, children, testProp && /*#__PURE__*/React.createElement(Test, {
+  }, children && children, testProp && /*#__PURE__*/React.createElement(Test, {
     testProp: testProp
   }, "malin"));
 };

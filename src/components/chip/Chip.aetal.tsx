@@ -4,7 +4,7 @@ import {ChipType} from "./types";
 
 const ChipAetal = () => {
     return (
-        <Chip chipType={ChipType.CLOSE} error={true} testProp={true}>sample chip</Chip>
+        <Chip chipType={ChipType.CLOSE} error={true} testProp={true} />
     );
 };
 

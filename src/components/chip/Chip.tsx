@@ -4,7 +4,7 @@ import {ChipWrapper} from "./style";
 import {Test} from '../test/Test';
 
 interface Props {
-    children: ReactNode;
+    children?: ReactNode;
     chipType?: ChipType;
     error?: boolean;
     active?: boolean;
@@ -20,7 +20,7 @@ export const Chip = ({
 }: Props) => {
     return (
         <ChipWrapper error={error} active={active} chipType={chipType}>
-            {children}
+            {children && children}
             {testProp && <Test testProp={testProp}>malin</Test>}
         </ChipWrapper>
     );
