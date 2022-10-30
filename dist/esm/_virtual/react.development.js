@@ -1,4 +1,4 @@
-var react_development = {exports: {}};
+var react_development = {};
 
-export { react_development as r };
+export { react_development as __exports };
 //# sourceMappingURL=react.development.js.map

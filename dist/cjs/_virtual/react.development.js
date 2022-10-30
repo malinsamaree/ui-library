@@ -1,6 +1,6 @@
 'use strict';
 
-var react_development = {exports: {}};
+var react_development = {};
 
-exports.react_development = react_development;
+exports.__exports = react_development;
 //# sourceMappingURL=react.development.js.map

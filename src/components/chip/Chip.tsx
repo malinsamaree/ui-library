@@ -4,7 +4,6 @@ import {ChipWrapper} from "./style";
 import {Test} from '../test/Test';
 
 interface Props {
-    children?: ReactNode;
     chipType?: ChipType;
     error?: boolean;
     active?: boolean;
@@ -12,7 +11,6 @@ interface Props {
 }
 
 function Chip({
-    children,
     chipType=ChipType.DEFAULT,
     error,
     active,
@@ -20,7 +18,6 @@ function Chip({
 }: Props) {
     return (
         <ChipWrapper error={error}>
-            {children && children}
             {testProp && <Test testProp={testProp}>malin</Test>}
         </ChipWrapper>
     );
