@@ -19,9 +19,9 @@ export const Chip = ({
     testProp
 }: Props) => {
     return (
-        <div>
+        <ChipWrapper error={error}>
             {children && children}
             {testProp && <Test testProp={testProp}>malin</Test>}
-        </div>
+        </ChipWrapper>
     );
 };

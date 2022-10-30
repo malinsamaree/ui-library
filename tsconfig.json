@@ -102,7 +102,8 @@
   },
   "exclude": [
     "aetal",
-    "src/**/*.aetal.tsx"
+    "src/**/*.aetal.tsx",
+    "bin"
   ],
   "include": [
     "src"
