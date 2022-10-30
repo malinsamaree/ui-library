@@ -5,5 +5,8 @@ interface ChipWrapperProps {
     $active?: boolean;
     $chipType?: ChipType;
 }
-export declare const ChipWrapper: import("styled-components").IStyledComponent<"web", "div", import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement> & ChipWrapperProps> & object;
+export declare const ChipWrapper: import("@emotion/styled").StyledComponent<{
+    theme?: import("@emotion/react").Theme | undefined;
+    as?: import("react").ElementType<any> | undefined;
+} & ChipWrapperProps, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, {}>;
 export {};
