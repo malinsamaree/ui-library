@@ -11,13 +11,13 @@ interface Props {
     testProp?: boolean;
 }
 
-export const Chip = ({
+function Chip({
     children,
     chipType=ChipType.DEFAULT,
     error,
     active,
     testProp
-}: Props) => {
+}: Props) {
     return (
         <ChipWrapper error={error}>
             {children && children}
@@ -25,3 +25,6 @@ export const Chip = ({
         </ChipWrapper>
     );
 };
+
+export {Chip};
+

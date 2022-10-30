@@ -3,7 +3,7 @@ import { ChipType } from './types.js';
 import { ChipWrapper } from './style.js';
 import { Test } from '../test/Test.js';
 
-var Chip = function Chip(_ref) {
+function Chip(_ref) {
   var children = _ref.children,
     _ref$chipType = _ref.chipType;
     _ref$chipType === void 0 ? ChipType.DEFAULT : _ref$chipType;
@@ -15,7 +15,7 @@ var Chip = function Chip(_ref) {
   }, children && children, testProp && /*#__PURE__*/React.createElement(Test, {
     testProp: testProp
   }, "malin"));
-};
+}
 
 export { Chip };
 //# sourceMappingURL=Chip.js.map

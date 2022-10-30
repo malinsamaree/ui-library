@@ -7,5 +7,5 @@ interface Props {
     active?: boolean;
     testProp?: boolean;
 }
-export declare const Chip: ({ children, chipType, error, active, testProp }: Props) => JSX.Element;
-export {};
+declare function Chip({ children, chipType, error, active, testProp }: Props): JSX.Element;
+export { Chip };
