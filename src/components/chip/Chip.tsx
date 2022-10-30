@@ -1,23 +1,27 @@
 import React, {ReactNode} from 'react';
 import {ChipType} from "./types";
 import {ChipWrapper} from "./style";
+import {Test} from '../test/Test';
 
 interface Props {
     children: ReactNode;
-    type?: ChipType;
+    chipType?: ChipType;
     error?: boolean;
     active?: boolean;
+    testProp?: boolean;
 }
 
 export const Chip = ({
     children,
-    type=ChipType.DEFAULT,
+    chipType=ChipType.DEFAULT,
     error,
-    active
+    active,
+    testProp
 }: Props) => {
     return (
-        <ChipWrapper error={error} active={active}>
+        <ChipWrapper $error={error} $active={active} $chipType={chipType}>
             {children}
+            {testProp && <Test testProp={testProp}>malin</Test>}
         </ChipWrapper>
     );
 };

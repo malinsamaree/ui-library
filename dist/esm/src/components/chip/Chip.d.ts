@@ -2,9 +2,10 @@ import { ReactNode } from 'react';
 import { ChipType } from "./types";
 interface Props {
     children: ReactNode;
-    type?: ChipType;
+    chipType?: ChipType;
     error?: boolean;
     active?: boolean;
+    testProp?: boolean;
 }
-export declare const Chip: ({ children, type, error, active }: Props) => JSX.Element;
+export declare const Chip: ({ children, chipType, error, active, testProp }: Props) => JSX.Element;
 export {};
