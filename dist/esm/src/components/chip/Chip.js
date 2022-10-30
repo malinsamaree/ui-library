@@ -11,9 +11,9 @@ var Chip = function Chip(_ref) {
     active = _ref.active,
     testProp = _ref.testProp;
   return /*#__PURE__*/React.createElement(ChipWrapper, {
-    $error: error,
-    $active: active,
-    $chipType: chipType
+    error: error,
+    active: active,
+    chipType: chipType
   }, children, testProp && /*#__PURE__*/React.createElement(Test, {
     testProp: testProp
   }, "malin"));

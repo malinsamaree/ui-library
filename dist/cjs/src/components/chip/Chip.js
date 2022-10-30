@@ -13,9 +13,9 @@ var Chip = function Chip(_ref) {
     active = _ref.active,
     testProp = _ref.testProp;
   return /*#__PURE__*/index.createElement(style.ChipWrapper, {
-    $error: error,
-    $active: active,
-    $chipType: chipType
+    error: error,
+    active: active,
+    chipType: chipType
   }, children, testProp && /*#__PURE__*/index.createElement(Test.Test, {
     testProp: testProp
   }, "malin"));

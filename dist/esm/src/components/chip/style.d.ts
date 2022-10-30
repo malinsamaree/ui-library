@@ -1,9 +1,9 @@
 /// <reference types="react" />
 import { ChipType } from './types';
 interface ChipWrapperProps {
-    $error?: boolean;
-    $active?: boolean;
-    $chipType?: ChipType;
+    error?: boolean;
+    active?: boolean;
+    chipType?: ChipType;
 }
 export declare const ChipWrapper: import("@emotion/styled").StyledComponent<{
     theme?: import("@emotion/react").Theme | undefined;
