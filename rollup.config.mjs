@@ -1,7 +1,6 @@
 import {babel} from '@rollup/plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from "@rollup/plugin-commonjs";
-import nodePolyFills from 'rollup-plugin-polyfill-node';
 
 const extensions = [
     '.js', '.jsx', '.ts', '.tsx',
@@ -33,7 +32,6 @@ export default {
             extensions,
             babelHelpers: 'bundled',
             exclude: ['node_modules/**']
-        }),
-        nodePolyFills()
+        })
     ]
 }
