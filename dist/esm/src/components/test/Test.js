@@ -6,3 +6,4 @@ var Test = function Test(_ref) {
 };
 
 export { Test };
+//# sourceMappingURL=Test.js.map

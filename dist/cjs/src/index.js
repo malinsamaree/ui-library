@@ -12,3 +12,4 @@ Object.defineProperty(exports, 'ChipType', {
 	enumerable: true,
 	get: function () { return types.ChipType; }
 });
+//# sourceMappingURL=index.js.map

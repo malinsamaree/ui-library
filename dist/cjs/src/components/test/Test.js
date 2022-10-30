@@ -8,3 +8,4 @@ var Test = function Test(_ref) {
 };
 
 exports.Test = Test;
+//# sourceMappingURL=Test.js.map

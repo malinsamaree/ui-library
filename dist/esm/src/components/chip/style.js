@@ -7,3 +7,4 @@ var ChipWrapper = newStyled.div(_templateObject || (_templateObject = _taggedTem
 });
 
 export { ChipWrapper };
+//# sourceMappingURL=style.js.map

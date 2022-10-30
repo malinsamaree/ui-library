@@ -5,3 +5,4 @@ var Spinner = function Spinner() {
 };
 
 export { Spinner };
+//# sourceMappingURL=Spinner.js.map

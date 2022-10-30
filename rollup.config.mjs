@@ -12,12 +12,14 @@ export default {
         {
             dir: './dist/cjs/',
             format: 'cjs',
-            preserveModules: true
+            preserveModules: true,
+            sourcemap: true
         },
         {
             dir: './dist/esm/',
             format: 'esm',
-            preserveModules: true
+            preserveModules: true,
+            sourcemap: true
         },
     ],
     plugins: [

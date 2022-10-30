@@ -18,3 +18,4 @@ var Chip = function Chip(_ref) {
 };
 
 export { Chip };
+//# sourceMappingURL=Chip.js.map

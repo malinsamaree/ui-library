@@ -7,3 +7,4 @@ var Spinner = function Spinner() {
 };
 
 exports.Spinner = Spinner;
+//# sourceMappingURL=Spinner.js.map
