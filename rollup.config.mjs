@@ -22,10 +22,7 @@ export default {
         },
     ],
     plugins: [
-        postcss ({
-            extract: false,
-            modules: true,
-        }),
+        postcss (),
         commonjs({
             include: /node_modules/,
             requireReturnsDefault: "auto"

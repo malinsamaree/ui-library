@@ -1,7 +1,6 @@
 declare namespace StyleModuleCssNamespace {
   export interface IStyleModuleCss {
     "bullet-wrapper": string;
-    bulletWrapper: string;
   }
 }
 

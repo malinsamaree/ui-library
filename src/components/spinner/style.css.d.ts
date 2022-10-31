@@ -1,7 +1,6 @@
 declare namespace StyleCssNamespace {
   export interface IStyleCss {
     "spinner-wrapper": string;
-    spinnerWrapper: string;
   }
 }
 

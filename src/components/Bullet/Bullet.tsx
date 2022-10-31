@@ -3,6 +3,6 @@ import style from './style.module.css';
 
 export const Bullet = () => {
     return (
-        <div className={style.bulletWrapper}></div>
+        <div className={style["bullet-wrapper"]}></div>
     );
 };
