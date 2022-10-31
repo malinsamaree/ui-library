@@ -18,6 +18,19 @@ module.exports = {
                 test: /\.(ts|tsx)$/,
                 loader: "babel-loader",
                 exclude: /node_modules/
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    "style-loader",
+                    "@teamsupercell/typings-for-css-modules-loader",
+                    {
+                        loader: "css-loader",
+                        options: {
+                            modules: true
+                        }
+                    }
+                ]
             }
         ]
     },

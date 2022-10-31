@@ -1,9 +1,10 @@
 import {babel} from '@rollup/plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from "@rollup/plugin-commonjs";
+import postcss from "rollup-plugin-postcss";
 
 const extensions = [
-    '.js', '.jsx', '.ts', '.tsx',
+    '.js', '.jsx', '.ts', '.tsx', '.css',
 ];
 
 export default {
@@ -21,15 +22,16 @@ export default {
         },
     ],
     plugins: [
+        postcss (),
         commonjs({
             include: /node_modules/,
             requireReturnsDefault: "auto"
         }),
         resolve({extensions}),
         babel({
-            extensions,
+            extensions: ['.js', '.jsx', '.ts', '.tsx'],
             babelHelpers: 'bundled',
             exclude: ['node_modules/**']
-        }),
+        })
     ]
 }
