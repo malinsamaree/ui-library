@@ -9,6 +9,7 @@ const SideNav = () => {
                     <UnorderedList>
                         <List><RouterLink to="/chip">chip</RouterLink></List>
                         <List><RouterLink to="/spinner">spinner</RouterLink></List>
+                        <List><RouterLink to="/bullet">bullet</RouterLink></List>
                     </UnorderedList>
                 <H4>Molecules</H4>
                     <UnorderedList>
