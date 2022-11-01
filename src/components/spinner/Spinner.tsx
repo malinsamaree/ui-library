@@ -1,6 +1,6 @@
 import React from "react";
 // @ts-ignore
-import style from "./style.css"
+import style from "./style.module.css"
 
 export const Spinner = () => {
     return (
