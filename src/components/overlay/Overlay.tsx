@@ -5,7 +5,7 @@ export const Overlay = () => {
     return (
         <div className={style["overlay-wrapper"]}>
             overlay
-            <div className="bullet-wrapper">aa</div>
+            <div className="less-element">aa</div>
         </div>
     );
 };

@@ -34,6 +34,15 @@ module.exports = {
                     "sass-loader"
                 ],
                 exclude: /node_modules/
+            },
+            {
+                test: /\.less$/,
+                use: [
+                    "style-loader",
+                    "css-loader",
+                    "less-loader"
+                ],
+                exclude: /node_modules/
             }
         ]
     },

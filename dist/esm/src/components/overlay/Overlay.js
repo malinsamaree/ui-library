@@ -5,7 +5,7 @@ var Overlay = function Overlay() {
   return /*#__PURE__*/React.createElement("div", {
     className: style["overlay-wrapper"]
   }, "overlay", /*#__PURE__*/React.createElement("div", {
-    className: "bullet-wrapper"
+    className: "less-element"
   }, "aa"));
 };
 

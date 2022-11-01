@@ -33,6 +33,8 @@
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
     "i": "^0.3.7",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
     "mini-css-extract-plugin": "^2.6.1",
     "npm": "^8.19.2",
     "react": "^18.2.0",
