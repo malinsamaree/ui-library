@@ -2,7 +2,7 @@
 
 var styleInject_es = require('../../../node_modules/style-inject/dist/style-inject.es.js');
 
-var css_248z = ".style-module_bullet-wrapper__JzemY {\n    width: 50px;\n    height: 50px;\n    border-radius: 50%;\n    background-color: cadetblue;\n}\n";
+var css_248z = ".style-module_bullet-wrapper__JzemY {\r\n    width: 50px;\r\n    height: 50px;\r\n    border-radius: 50%;\r\n    background-color: cadetblue;\r\n}\r\n";
 var style = {"bullet-wrapper":"style-module_bullet-wrapper__JzemY"};
 styleInject_es(css_248z);
 

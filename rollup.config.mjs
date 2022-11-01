@@ -4,7 +4,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import postcss from "rollup-plugin-postcss";
 
 const extensions = [
-    '.js', '.jsx', '.ts', '.tsx', '.css',
+    '.js', '.jsx', '.ts', '.tsx', '.css', '.scss',
 ];
 
 export default {

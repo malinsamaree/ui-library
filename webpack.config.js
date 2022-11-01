@@ -23,14 +23,17 @@ module.exports = {
                 test: /\.css$/,
                 use: [
                     "style-loader",
-                    "@teamsupercell/typings-for-css-modules-loader",
-                    {
-                        loader: "css-loader",
-                        options: {
-                            modules: true
-                        }
-                    }
+                    "css-loader"
                 ]
+            },
+            {
+                test: /\.s(c|a)ss$/,
+                use: [
+                    "style-loader",
+                    "css-loader", 
+                    "sass-loader"
+                ],
+                exclude: /node_modules/
             }
         ]
     },
@@ -41,6 +44,6 @@ module.exports = {
         })
     ],
     resolve: {
-        extensions: ['.js', '.ts', '.tsx']
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
     }
 }
