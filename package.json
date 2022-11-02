@@ -1,6 +1,6 @@
 {
   "name": "@malinsamare/create-ui-library",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "aetal - a react library to create and manage components... ",
   "bin": "./bin/cli.js",
   "main": "dist/cjs/src/index.js",
