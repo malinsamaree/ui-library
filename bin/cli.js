@@ -15,18 +15,22 @@ const runCommand = command => {
 const repoName = process.argv[2];
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/malinsamaree/ui-library.git ${repoName}`;
 const cdCommand = `cd ${repoName}`;
+const setNameCommand = `npm pkg set name=${repoName}`;
 const installDepsCommand = `npm install`;
 
 console.log(`Cloning the repository - ${repoName}`);
 const checkedOut = runCommand(gitCheckoutCommand);
 if(!checkedOut) process.exit(-1);
 
-console.log(`Setting up the project`);
+console.log(`cd'ing in to ${repoName}`);
 const cd = runCommand(cdCommand);
-const packageJsonFileName = `./package.json`;
-const packageJsonContent = require(packageJsonFileName);
-packageJsonContent.name = repoName;
-fs.writeFileSync(packageJsonFileName, JSON.stringify(packageJsonContent));
+
+console.log(`Setting up the project`);
+const setName = runCommand(setNameCommand);
+// const packageJsonFileName = `./package.json`;
+// const packageJsonContent = require(packageJsonFileName);
+// packageJsonContent.name = repoName;
+// fs.writeFileSync(packageJsonFileName, JSON.stringify(packageJsonContent));
 
 console.log(`Installing dependencies`);
 const installedDeps = runCommand(installDepsCommand);
