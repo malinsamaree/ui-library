@@ -101,8 +101,10 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "exclude": [
-    "aetal",
-    "src/**/*.aetal.tsx"
+    "twinklecube",
+    "src/**/*.twinklecube.tsx",
+    "src/**/*.twinklecube.jsx",
+    "src/**/*.twinklecube.js"
   ],
   "include": [
     "src"

@@ -1,11 +1,12 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const appdir = 'twinklecube';
 
 module.exports = {
     mode: "development",
-    entry: path.resolve(__dirname, 'aetal', 'index.tsx'),
+    entry: path.resolve(__dirname, appdir, 'index.tsx'),
     output: {
-        path: path.join(__dirname, 'aetal', 'dist'),
+        path: path.join(__dirname, appdir, 'dist'),
         filename: "index.js"
     },
     devServer: {
@@ -39,8 +40,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, 'aetal', 'index.html'),
-            favicon: path.resolve('./aetal/favicon.ico')
+            template: path.resolve(__dirname, appdir, 'index.html'),
+            favicon: path.resolve(__dirname, appdir, 'favicon.ico')
         })
     ],
     resolve: {
