@@ -1,9 +1,9 @@
 import React from "react";
-// @ts-ignore
 import style from "./style.module.css";
 import "./styles.css";
 import "./sassstyles.scss";
 import "./lessstyles.less";
+import lessstyle from "./lessstylesm.module.less";
 
 export const Spinner = () => {
     return (
@@ -14,6 +14,7 @@ export const Spinner = () => {
             </div>
             <div className="spinner-para">malin</div>
             <div className="lesswrapper">less</div>
+            <div className={lessstyle.seconlesswrapper}>less module</div>
         </div>
     );
 };
