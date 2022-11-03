@@ -4,7 +4,7 @@ import {HeaderWrapper, Title, Description, DescriptionSpan, TitleSpan} from "./s
 const Header = () => {
     return (
         <HeaderWrapper>
-            <Title><TitleSpan>TWINKL</TitleSpan>e[cube]</Title>
+            <Title><TitleSpan>TWINKL</TitleSpan>e[cube] ui</Title>
             <Description>
                 very simple library to
                 <DescriptionSpan> create </DescriptionSpan>,
