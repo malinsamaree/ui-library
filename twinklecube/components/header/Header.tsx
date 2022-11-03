@@ -4,14 +4,14 @@ import {HeaderWrapper, Title, Description, DescriptionSpan, TitleSpan} from "./s
 const Header = () => {
     return (
         <HeaderWrapper>
-            <Title>(<TitleSpan>ä</TitleSpan>|e)t al.</Title>
+            <Title><TitleSpan>TWINKL</TitleSpan>e[cube] ui</Title>
             <Description>
                 very simple library to
                 <DescriptionSpan> create </DescriptionSpan>,
                 <DescriptionSpan> bundle </DescriptionSpan>
                 and
                 <DescriptionSpan> export </DescriptionSpan>
-                react-typescript UIs
+                react UIs (typescript / styled-components enabled)
             </Description>
         </HeaderWrapper>
     );

@@ -20,6 +20,7 @@ export const Title = styled.h1`
 
 export const TitleSpan = styled.span`
     color: #679ac9;
+    font-size: 20px;
 `;
 
 export const Description = styled.h3`
