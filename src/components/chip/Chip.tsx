@@ -1,6 +1,5 @@
 import React, {ReactNode} from 'react';
 import {ChipType} from "./types";
-import {ChipWrapper} from "./style";
 
 interface Props {
     children: ReactNode;
@@ -16,8 +15,8 @@ export const Chip = ({
     active
 }: Props) => {
     return (
-        <ChipWrapper error={error} active={active}>
+        <div>
             {children}
-        </ChipWrapper>
+        </div>
     );
 };

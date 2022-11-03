@@ -18,7 +18,7 @@ var Spinner = function Spinner() {
     className: "lesswrapper"
   }, "less"), /*#__PURE__*/index.createElement("div", {
     className: lessstylesm_module.seconlesswrapper
-  }, "less module"));
+  }, "less module"), /*#__PURE__*/index.createElement("li", null, "malin"));
 };
 
 exports.Spinner = Spinner;

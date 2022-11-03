@@ -1,14 +1,15 @@
 import * as React from 'react';
-import {AppWrapper} from "./style";
 import Header from "../header/Header";
 import Body from "../body/Body";
+// @ts-ignore
+import style from './style.module.css'
 
 const App = () => {
     return (
-        <AppWrapper>
+        <div className={style["app-wrapper"]}>
             <Header />
             <Body />
-        </AppWrapper>
+        </div>
     );
 };
 

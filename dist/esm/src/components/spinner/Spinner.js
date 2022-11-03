@@ -16,7 +16,7 @@ var Spinner = function Spinner() {
     className: "lesswrapper"
   }, "less"), /*#__PURE__*/React.createElement("div", {
     className: lessstyle.seconlesswrapper
-  }, "less module"));
+  }, "less module"), /*#__PURE__*/React.createElement("li", null, "malin"));
 };
 
 export { Spinner };

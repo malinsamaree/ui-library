@@ -1,14 +1,15 @@
 import * as React from 'react';
-import {BodyWrapper} from "./style";
 import SideNav from "../side-nav/SideNav";
 import Container from "../container/Container";
+// @ts-ignore
+import style from "./style.module.css"
 
 const Body = () => {
     return (
-        <BodyWrapper>
+        <div className={style["body-wrapper"]}>
             <SideNav />
             <Container />
-        </BodyWrapper>
+        </div>
     );
 };
 
