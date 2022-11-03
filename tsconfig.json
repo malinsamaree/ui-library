@@ -107,6 +107,7 @@
     "src/**/*.twinklecube.js"
   ],
   "include": [
-    "src"
+    "src",
+    "twinklecube/modules.d.ts"
   ]
 }

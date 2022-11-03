@@ -15,6 +15,7 @@ export const Spinner = () => {
             <div className="spinner-para">malin</div>
             <div className="lesswrapper">less</div>
             <div className={lessstyle.seconlesswrapper}>less module</div>
+            <li>malin</li>
         </div>
     );
 };

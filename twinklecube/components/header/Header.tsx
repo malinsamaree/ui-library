@@ -1,19 +1,20 @@
 import * as React from 'react';
-import {HeaderWrapper, Title, Description, DescriptionSpan, TitleSpan} from "./style";
+// @ts-ignore
+import style from "./style.module.css";
 
 const Header = () => {
     return (
-        <HeaderWrapper>
-            <Title><TitleSpan>TWINKL</TitleSpan>e[cube] ui</Title>
-            <Description>
+        <div className={style["header-wrapper"]}>
+            <h1><span>TWINKL</span>e[cube] ui</h1>
+            <h3>
                 very simple library to
-                <DescriptionSpan> create </DescriptionSpan>,
-                <DescriptionSpan> bundle </DescriptionSpan>
+                <span> create </span>,
+                <span> bundle </span>
                 and
-                <DescriptionSpan> export </DescriptionSpan>
-                react UIs (typescript / styled-components enabled)
-            </Description>
-        </HeaderWrapper>
+                <span> export </span>
+                react UIs (typescript enabled)
+            </h3>
+        </div>
     );
 };
 

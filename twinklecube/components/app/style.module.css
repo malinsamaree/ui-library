@@ -1,8 +1,6 @@
-import styled from "styled-components";
-
-export const AppWrapper = styled.div`
+.app-wrapper {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-`;
+}
