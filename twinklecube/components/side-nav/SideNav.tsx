@@ -7,17 +7,19 @@ const SideNav = () => {
     return (
         <div className={style["side-nav-wrapper"]}>
             <nav>
+
                 <h4>Atoms</h4>
                     <ul>
                         <li><Link to="/chip">chip</Link></li>
-                        <li><Link to="/spinner">spinner</Link></li>
-                        <li><Link to="/bullet">bullet</Link></li>
-                        <li><Link to="/overlay">overlay</Link></li>
+                        {/*more routes come here*/}
                     </ul>
+
+                {/*following is another category*/}
                 <h4>Molecules</h4>
                 <ul>
-                    <li><Link to="/chip">chip</Link></li>
+                    <li></li>
                 </ul>
+
             </nav>
         </div>
     );
