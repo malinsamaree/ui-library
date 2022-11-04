@@ -12,7 +12,7 @@ const Container = () => {
                 <Route path="/chip" element={<ChipTwinklecube />} />
                 <Route path="/spinner" element={<Spinner />} />
                 <Route path="/bullet" element={<Bullet />} />
-                <Route path="/overlay" element={<Overlay />} />
+                <Route path="/overlay" element={<Overlay active={true} />} />
             </Routes>
         </div>
     );
