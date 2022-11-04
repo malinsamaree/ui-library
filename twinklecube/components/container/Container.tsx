@@ -10,9 +10,7 @@ const Container = () => {
         <div className={style["container-wrapper"]}>
             <Routes>
                 <Route path="/chip" element={<ChipTwinklecube />} />
-                <Route path="/spinner" element={<Spinner />} />
-                <Route path="/bullet" element={<Bullet />} />
-                <Route path="/overlay" element={<Overlay active={true} />} />
+                {/*more components come here*/}
             </Routes>
         </div>
     );
