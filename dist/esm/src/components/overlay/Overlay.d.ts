@@ -1,2 +1,6 @@
 /// <reference types="react" />
-export declare const Overlay: () => JSX.Element;
+interface Props {
+    active?: boolean;
+}
+export declare const Overlay: ({ active }: Props) => JSX.Element;
+export {};
