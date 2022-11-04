@@ -1,7 +1,8 @@
 {
-  "name": ".",
-  "version": "1.0.0",
+  "name": "@twinklecube/create-ui-library",
+  "version": "0.0.7",
   "description": "twinklecube ui - a react library to create and manage UIs... ",
+  "bin": "./bin/cli.js",
   "main": "dist/cjs/src/index.js",
   "module": "dist/esm/src/index.js",
   "files": [
