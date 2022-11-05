@@ -5,6 +5,7 @@
 <h2>install:</h2>
 
 `npx @twinklecube/create-ui-library ui-library`
+<p>required node version 16.7.0 or higher</p>
 <p>
 Here the 'ui-library' is the package/directory name... so, it's your choice<br> 
 This command will create a folder called 'ui-library' and install the project there

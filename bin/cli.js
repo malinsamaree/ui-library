@@ -15,7 +15,8 @@ const runCommand = command => {
 };
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/malinsamaree/ui-library.git ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/malinsamaree/ui-library.git ${repoName}/temp`;
+
 const installDepsCommand = `cd ${repoName} && npm install`;
 const setupNameCommand = `cd ${repoName} && npm pkg set name=${repoName}`;
 const setupVersionCommand = `cd ${repoName} && npm pkg set version=1.0.0`;
@@ -26,6 +27,11 @@ console.log(`\nCreating a new TwinkleCube UI app...`);
 console.log(`\nCloning the repository...\n`);
 const checkedOut = runCommand(gitCheckoutCommand);
 if(!checkedOut) process.exit(-1);
+
+fs.rmSync(`./${repoName}/temp/.git`, {recursive: true, force: true});
+fs.rmSync(`./${repoName}/temp/.gitignore`);
+fs.cpSync(`./${repoName}/temp`, `./${repoName}`, {recursive: true});
+fs.rmSync(`./${repoName}/temp/`, {recursive: true, force: true});
 
 console.log(`\nSetting up the project...`);
 runCommand(setupNameCommand);
